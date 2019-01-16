@@ -1,0 +1,18 @@
+%Exercicio426
+%exercicio 587
+\begin{ex}
+\begin{align}
+&\lim_{x\rightarrow 0} \left(\frac{\tg{x}}{x}\right)^{\frac{1}{x}}\nonumber\\
+%resposta
+&\lim_{x\rightarrow 0} \left(\frac{\tg{x}}{x}\right)^{\frac{1}{x}}= \left[\frac{0}{0}\right]^{\infty}\nonumber\\
+&z=\left(\frac{\tg{x}}{x}\right)^{\frac{1}{x}} \Rightarrow \ln{z}=\frac{1}{x}\ln{\left(\frac{\tg{x}}{x}\right)}\nonumber\\
+&\lim_{x\rightarrow 0} \ln{z}=\lim_{x\rightarrow 0} \frac{1}{x} \ln{\left(\frac{\tg{x}}{x}\right)}=\left[\frac{0}{0}\right]\nonumber\\
+&\lim_{x\rightarrow 0} \frac{1}{x}\ln{\left(\frac{\tg{x}}{x}\right)}=\lim_{x\rightarrow 0} \frac{x}{\tg{x}} \frac{\frac{1}{\cos^2{x}}.x-\tg{x}}{x^2}\nonumber\\
+&\lim_{x\rightarrow 0} \frac{\cos{x}}{\sen{x}}.\frac{\frac{x}{\cos^2{x}}-\frac{\sen{x}}{\cos{x}}}{x}\nonumber\\
+&\lim_{x\rightarrow 0} \frac{x\sen{x}\cos{x}}{x\sen{x}\cos{x}}\nonumber\\
+&\lim_{x\rightarrow 0} \frac{1}{\cos{x}}.\lim_{x\rightarrow 0} \frac{x-\sen{x}\cos{x}}{x.\sen{x}}\nonumber\\
+&\lim_{x\rightarrow 0} \frac{1+\sen^2{x}-\cos^2{x}}{x\cos{x}+\sen{x}}\nonumber\\
+&\lim_{x\rightarrow 0} \frac{4\sen{x}\cos{x}}{2\cos{x}-x\sen{x}}=0\nonumber\\
+&\log{z}=0 \Rightarrow z=1 \quad \therefore \lim_{x\rightarrow 0} \left(\frac{\tg{x}}{x}\right)^{\frac{1}{x}}=1\nonumber
+\end{align}
+\end{ex}

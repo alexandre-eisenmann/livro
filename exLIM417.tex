@@ -1,0 +1,17 @@
+%Exercicio417
+%exercicio 578
+\begin{ex}
+\begin{align}
+&\lim_{x\rightarrow \frac{\pi}{4}} (\tg{x})^{\tg{2x}}\nonumber\\
+%resposta
+&\lim_{x\rightarrow \frac{\pi}{4}} (\tg{x})^{\tg{2x}}=[1]^\infty\nonumber\\
+&z=(\tg{x})^{\tg{2x}} \Rightarrow \ln{z}=\tg{2x}.\ln{tg{x}}\nonumber\\
+&\lim_{x\rightarrow \frac{\pi}{4}} \ln{z}=\lim_{x\rightarrow \frac{\pi}{4}} \tg{2x}.\ln{\tg{x}}\nonumber\\
+&\lim_{x\rightarrow \frac{\pi}{4}} \frac{\ln{tg{x}}}{\frac{1}{\tg{2x}}}=\left[\frac{0}{0}\right]\nonumber\\
+&\tg{2x}=\frac{2\tg{x}}{1-\tg^2{x}}.\quad \text{Substituindo-se, temos:}\nonumber\\
+&\lim_{x\rightarrow \frac{\pi}{4}} \ln{z}=\lim_{x\rightarrow \frac{\pi}{4}} \frac{\ln{\tg{x}}}{\frac{1-\tg^{x}}{2\tg{x}}}=\lim_{x\rightarrow \frac{\pi}{4}} \frac{2\tg{x}.\ln{\tg{x}}}{1+\tg^2{x}}\nonumber\\
+&\lim_{x\rightarrow \frac{\pi}{4}} 2\frac{\tg{x}.\frac{1}{\tg{x}}.\frac{1}{\cos^2{x}}+\frac{1}{\cos^2{x}}.\ln{\tg{x}}}{-2\tg{x}.\frac{1}{\cos^2{x}}}=-1\nonumber\\
+&\text{ent�o, se}\quad \ln{z}=-1 \Rightarrow z=\frac{1}{e}\therefore\nonumber\\
+&\lim_{x\rightarrow \frac{\pi}{4}} (\tg{x})^{\tg{2x}}=\frac{1}{e}\nonumber
+\end{align}
+\end{ex}

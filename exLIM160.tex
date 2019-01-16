@@ -1,0 +1,13 @@
+%Exercicio160
+%exercicio 297
+\begin{ex}
+\begin{align}
+&y=\log_a {x}\nonumber\\
+%resposta
+&y'=\lim_{h\rightarrow 0} \frac{\log_a(x+h)-\log_a{x}}{h}\nonumber\\
+&\text{fazendo-se }\quad h=\frac{x}{m}\quad\text{e se}\quad h\rightarrow 0,\quad m\rightarrow \infty\nonumber\\
+&y'=\lim_{m\rightarrow \infty} \frac{\log_a{\left(x+\frac{x}{m}\right)}-\log_a{x}}{h}=\nonumber\\
+&y'=\lim_{m\rightarrow \infty} \frac{\log_a{\left(\frac{x+\frac{x}{m}}{x}\right)}}{\frac{x}{m}}=\nonumber\\
+&y'=\frac{1}{x}.\lim_{m\rightarrow \infty} m.\log_a\left(1+\frac{1}{m}\right)=\frac{1}{x}.\lim_{m\rightarrow \infty} \left(1+\frac{1}{m}\right)^m=\frac{1}{m}.\log_a{e}\nonumber
+\end{align}
+\end{ex}
