@@ -1,0 +1,12 @@
+%Exercicio18
+%exercicio217
+\begin{ex}
+\begin{align}
+&\lim_{x\rightarrow \infty} x.\left[1-\sqrt{(1-\frac{a}{x})(1-\frac{b}{x})}\right]=\nonumber\\
+&\text{multiplicando-se o numerador e o denominador por}\quad 1+\sqrt{(1-\frac{a}{x})(1-\frac{b}{x})}\quad\text{temos:}\nonumber\\
+&\lim_{x\rightarrow \infty}\frac{x[1-\sqrt{(1-\frac{a}{x})(1-\frac{b}{x})}][1+\sqrt{(1-\frac{a}{x})(1-\frac{b}{x})}]}{[1+\sqrt{(1-\frac{a}{x})(1-\frac{b}{x})}]}=\nonumber\\
+&\lim_{x\rightarrow \infty} \frac{x[1-(1-\frac{a}{x})(1-\frac{b}{x})]}{1+\sqrt{(1-\frac{a}{x})(1-\frac{b}{x})}}=\lim_{x\rightarrow \infty} \frac{x[\frac{b}{x}+\frac{a}{x}-\frac{ab}{x^2}]}{1+\sqrt{(1-\frac{a}{x})(1-\frac{b}{x})}}=\nonumber\\
+&\lim_{x\rightarrow \infty} \frac{x[\frac{1}{x}(b+a-\frac{ab}{x})]}{1+\sqrt{(1-\frac{b}{a})(1-\frac{b}{x})}}=\lim_{x\rightarrow \infty} \frac{b+a-\frac{ab}{x}}{1+\sqrt{(1-\frac{a}{x})(1-\frac{b}{x})}}=\nonumber\\
+&\frac{b+a-\frac{ab}{\infty}}{1+\sqrt{(1-\frac{a}{\infty})(1-\frac{b}{\infty})}}=\frac{b+a-0}{1+(1-0)(1-0)}=\frac{a+b}{2}\nonumber
+\end{align}
+\end{ex}

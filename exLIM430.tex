@@ -1,0 +1,16 @@
+%Exercicio430
+%exercicio 591
+\begin{ex}
+\begin{align}
+&\lim_{x\rightarrow 1} (x-1)^{\log{x}}\nonumber\\
+%resposta
+&\lim_{x\rightarrow 1} (x-1)^{\log{x}}=[0]^0\nonumber\\
+&z=(x-1)^{\log{x}} \Rightarrow \ln{z}=\log{x}\ln{(x-1)}\nonumber\\
+&\lim_{x\rightarrow 1} \ln{z} = \lim_{x\rightarrow 1} \log{x}\ln{(x-1)}=\lim_{x\rightarrow 1} \frac{\log{x}}{\frac{1}{\ln{(x-1)}}}=\left[\frac{0}{0}\right]\nonumber\\
+&\lim_{x\rightarrow 1} \frac{\frac{1}{x}}{\frac{1}{\log^2{(x-1)}}.\frac{1}{(x-1)}}\nonumber\\
+&-\lim_{x\rightarrow 1}\frac{x-1}{x}\log^2{(x-1)}\nonumber\\
+&-\lim_{x\rightarrow 1} (x-1)\log^2{(x-1)}=-\lim_{x\rightarrow 1} \frac{\log^2{(x-1)}}{\frac{1}{x-1}}=\left[\frac{\infty}{\infty}\right]\nonumber\\
+&\lim_{x\rightarrow 1} \frac{2\log{(x-1)}\frac{1}{x-1}}{\frac{1}{(x-1)^2}}=2\lim_{x\rightarrow 1} \log{(x-1)}=0\nonumber\\
+&\ln{z}=0 \Rightarrow z=1 \quad \therefore \lim_{x\rightarrow 1} (x-1)^{\log{x}}=1\nonumber
+\end{align}
+\end{ex} 

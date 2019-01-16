@@ -1,0 +1,20 @@
+%Exercicio428
+%exercicio 589
+\begin{ex}
+\begin{align}
+&\lim_{x\rightarrow 0} \left[\frac{\tg{x}}{\log{|1+x|}}\right]^{\frac{1}{x}}\nonumber\\
+%resposta
+&\lim_{x\rightarrow 0} \left[\frac{\tg{x}}{\log{|1+x|}}\right]^{\frac{1}{x}}=\left[\frac{0}{0}\right]^{\infty}\nonumber\\
+&z=\left[\frac{\tg{x}}{\log{|1+x|}}\right]^{\frac{1}{x}} \Rightarrow \ln{z}=\frac{1}{x} \ln{\left[\frac{\tg{x}}{\log{|1+x|}}\right]}\nonumber\\
+&\lim_{x\rightarrow 0} \frac{\ln{\frac{\tg{x}}{\log{|1+x|}}}}{x}=\left[\frac{0}{0}\right]\nonumber\\
+&\lim_{x\rightarrow 0} \frac{\frac{\log{|1+x|}}{\tg{x}}.\frac{\sec^2{x}.\log{|1+x|}-\frac{\tg{x}}{1+x}}{|log^2{|1+x|}}}{1}\nonumber\\
+&\lim_{x\rightarrow 0} \frac{(1+x)\log{|1+x|}-\tg{x}\cos^2{x}}{(1+x)\cos^2{x}\tg{x}\log{|1+x|}}=\left[\frac{0}{0}\right]\nonumber\\
+&\lim_{x\rightarrow 0} \frac{|\log{(1+x)}+1-1-\tg{x}\sen{2x}|}{\cos^2{x}\tg{x}\log{|1+x|}-\sen^2{x}(1+x)\tg{x}\log{|1+x|}+}\dots\nonumber\\
+&\dots \frac{1}{+(1+x)\log(1+x)+\cos^2{x}\tg{x}}\nonumber\\
+&\lim_{x\rightarrow 0} \left(\frac{1}{1+x}+\frac{\sen{2x}}{\cos^2{x}}+2\tg{x}\cos{2x}\right)\nonumber\\
+&-2\sen{2x}\tg{x}\log{|1+x|}+\log{|1+x|}+\frac{\cos^2{x}\tg{x}}{1+x}-\nonumber\\
+&-\sen{2x}\frac{1+x}{\cos^2{x}}\log{|1+x|}-\dots-2\cos^2{x}(1+x)\tg{x}\log{|1+x|}-\nonumber\\
+&-\sen{2x}\tg{x}\log{|1+x|}-\sen{2x}\tg{x}+\log{|1+x|}+1-\tg{x}\sen{2x}=\frac{1}{2}\nonumber\\
+&\ln{z}=\frac{1}{2} \Rightarrow z=e^{\frac{1}{2}}=\sqrt{e} \quad \therefore \lim_{x\rightarrow 0} \left[\frac{\tg{x}}{\log{|1+x|}}\right]^{\frac{1}{x}}=\sqrt{e}\nonumber
+\end{align}
+\end{ex}

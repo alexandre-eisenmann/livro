@@ -1,0 +1,17 @@
+%Exercicio119
+%exercicio 227
+\begin{ex}
+\begin{align}
+&\lim_{x\rightarrow 0} \frac{1-\cos{x}}{x^2}=\nonumber\\
+%resposta
+&\lim_{x\rightarrow 0} \frac{\cos{0}-\cos{x}}{x^2}=\lim_{x\rightarrow 0} \frac{-2\sen({\frac{x+0}{2}}).\sen({\frac{0-x}{2}})}{x^2}=\nonumber\\
+&\lim_{x\rightarrow 0} \frac{-2\sen{\frac{x}{2}}(-sen{\frac{x}{2}})}{x^2}=\lim_{x\rightarrow 0}\frac{2sen^2({\frac{x}{2}})}{x^2}=\nonumber\\
+&\lim_{x\rightarrow 0} \frac{\sen^2({\frac{x}{2}})}{x^2.(\frac{1}{2})}=\frac{\sen{\frac{x}{2}}}{\frac{x}{2}}.\frac{\sen{\frac{x}{2}}}{x}=\frac{1}{2}\nonumber\\
+&\text{outra maneira de resolver:}\nonumber\\
+%resposta
+&\text{multiplicando e dividindo por}\quad 1+\cos{x},\quad\text{temos:}\nonumber\\
+&\lim_{x\rightarrow 0} \frac{(1-\cos{x})(1+\cos{x})}{x^2(1+\cos{x})}=\lim_{x\rightarrow 0} \frac{1-\cos^2{x}}{x^2(1+\cos{x})}=\nonumber\\
+&\lim_{x\rightarrow 0} \frac{\sen^2{x}}{x^2(1+\cos{x})}=\lim_{x\rightarrow 0} \frac{\sen^2{x}}{x^2(1+\cos{x})}=\lim_{x\rightarrow 0} \frac{\sen^2{x}}{x^2}.\lim_{x\rightarrow 0} \frac{1}{1+\cos{x}}=\nonumber\\
+&1.\frac{1}{1+1}=1.\frac{1}{2}=\frac{1}{2}\nonumber
+\end{align}
+\end{ex}

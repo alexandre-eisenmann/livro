@@ -1,0 +1,18 @@
+%Exercicio97
+%exercicio 190
+\begin{ex}
+\begin{align}
+&\lim_{x\rightarrow \infty} \left(\sqrt[3]{7x^2+8x^3}-2x\right)=\nonumber\\
+%resposta
+&\text{dividindo-se o numerador e o denominador por x, temos:}\nonumber\\
+&\lim_{\rightarrow \infty} \frac{\sqrt[3]{\frac{7}{x}+8}-2}{\frac{1}{x}}=\nonumber\\
+&\text{ e fazendo-se:}\nonumber\\
+&\begin{cases}
+&\frac{7}{x}+8=t^3\Rightarrow\frac{1}{x}=\frac{t^3-8}{7}\\
+&t^3-8\rightarrow 0\Rightarrow t\rightarrow 2\nonumber\\
+\end{cases}
+&\therefore\nonumber\\
+&\lim_{t\rightarrow 2} \frac{\sqrt[3]{t^3}-2}{\frac{t^3-8}{7}}=\lim_{t\rightarrow 2} \frac{7(t-2)}{t^3-8}=\nonumber\\
+&\lim_{t\rightarrow 2} \frac{7(t-2)}{(t-2)(t^2+2t+4)}=\frac{7}{4+4+4}=\frac{7}{12}\nonumber
+\end{align}
+\end{ex}
