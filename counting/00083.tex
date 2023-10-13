@@ -1,0 +1,18 @@
+\begin{ex}
+  (Fuvest) Para a prova de um concurso vestibular, foram elaboradas 14 questões, sendo 7 de Português, 4 de Geografia e 3 de Matemática. Diferentes versões da prova poderão ser produzidas, permutando-se livremente essas 14 questões.
+    \begin{enumerate}  [(a)]
+        \item quantas versões distintas da prova poderão ser produzidas?
+        \item a instituição responsável pelo vestibular definiu as versões classe A da prova como sendo aquelas que seguem o seguinte padrão: as 7 primeiras questões são de Português, a última deve ser uma questão de Matemática e, ainda mais: duas questões de Matemática não podem aparecer em posições consecutivas. Quantas versões classe A distintas da prova poderão ser produzidas?
+        \item dado que um candidato vai receber uma prova que começa com 7 questões de Português, qual é a probabilidade de que ele receba uma versão classe A?
+    \end{enumerate}
+      \begin{sol}
+       \phantom{A} 
+       \begin{enumerate} [(a)]
+           \item $14!$
+           \item questões de português no início da prova: $7!$\\
+           3 formas de escolher a última questão de matemática e 4 formas de escolher a penúltima questão, entre as questões de geografia; com isso existem $5!-2\cdot4!=72$ formas de montar as questões centrais.\\
+           No total, existem $7!\cdot3\cdot4\cdot72=864\cdot7!= 4.354.560$ provas do tipo A
+           \item $\Longrightarrow p=\frac{864\cdot7!}{7!\cdot7!}=\frac{864}{5040}=\frac{6}{35}$
+       \end{enumerate}
+      \end{sol}
+ \end{ex}

@@ -1,0 +1,28 @@
+\begin{ex}
+  (Puc)Na sala de reuniões de certa empresa há uma mesa retangular com 10 poltronas dispostas da forma como é mostrado na figura abaixo.
+  \begin{center}
+  \begin{tikzpicture}
+  \draw (-2.5,-1) rectangle (2.5,1);\draw (-2.1,1.5) rectangle (-1.4,2.4);\draw (-1,1.5) rectangle (-.3,2.4); \draw (.1,1.5) rectangle (.8,2.4);\draw(1.2,1.5) rectangle(1.9,2.4);
+  \draw (-2.1,-1.5) rectangle (-1.4,-2.4);\draw (-1,-1.5) rectangle (-.3,-2.4); \draw (.1,-1.5) rectangle (.8,-2.4);\draw(1.2,-1.5) rectangle(1.9,-2.4);
+  \draw (-3.9,-.35) rectangle (-3,.35);\draw (3.9,-.35) rectangle (3,.35);
+  \end{tikzpicture}
+  \end{center}
+  Certo dia, sete pessoas foram convocadas para participar de uma reunião a ser realizada nessa sala: o presidente, o vice-presidente, um secretário e quatro membros da diretoria. Sabe-se que:
+    \begin{enumerate} [--]
+        \item o presidente e o vice-presidente deverão ocupar exclusivamente as poltronas das cabeceiras da mesa;
+        \item o secretário deverá ocupar uma poltrona ao lado do presidente;
+    \end{enumerate}
+  Considerando que tais poltronas são fixas no piso da sala, de quantos modos as sete pessoas podem nelas se acomodar para participar de tal reunião?
+    \begin{enumerate} [(a)]
+        \item 3360
+        \item 2480
+        \item 1680
+        \item 1240
+        \item 840
+    \end{enumerate}
+      \begin{sol}
+      resposta: a \\
+      O presidente e o vice tem 2 maneiras de sentar. O secretário tem 2 maneiras de sentar e os 4 membros da diretoria tem $7\cdot6\cdot5\cdot4= 840$ maneiras de sentar. \\
+      Total = $2\cdot2\cdot840=3360$ maneiras
+      \end{sol}
+ \end{ex}

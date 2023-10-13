@@ -1,0 +1,22 @@
+\begin{ex}
+  (Fuvest) Um jogo educativo possui 16 peças nos formatos: círculo, triângulo, quadrado e estrela, e cada formato é apresentado em 4 cores: amarelo, branco, laranja e verde. Dois jogadores distribuem entre si quantidades iguais dessas peças, de forma aleatória. O conjunto de 8 peças que cada jogador recebe é chamado de coleção.
+      \begin{enumerate}  [(a)]
+          \item quantas são as possíveis coleções que um jogador pode receber? 
+          \item qual é a probabilidade de que os dois jogadores recebam a mesma quantidade de peças amarelas? 
+          \item A regra do jogo estabelece pontuações para as peças, da seguinte forma: círculo = 1 ponto, triângulo = 2 pontos, quadrado = 3 pontos e estrela = 4 pontos. Quantas são as possíveis coleções que valem 26 pontos ou mais?
+      \end{enumerate}
+       \begin{sol}
+        \phantom{A} 
+         \begin{enumerate} [(a)]
+             \item $\mathrm{C}_{{16},8}=12870$
+             \item 2 peças amarelas para cada jogador: \hspace{0,4cm}
+         $\frac{\mathrm{C}_{4,2}\cdot\mathrm{C}_{{12},6}}{\mathrm{C}_{{16},8}}=\frac{28}{65}$
+         \item - 4 estrelas e 4 quadrados (28 pontos) = $\mathrm{C}_{4,4}\cdot\mathrm{C}_{4,4}=1$ \\
+         - 4 estrelas, 3 quadrados e 1 triângulo (27 pontos) = $\mathrm{C}_{4,4}\cdot\mathrm{C}_{4,3}\cdot\mathrm{C}_{4,1}=16$ \\
+         - 4 estrelas, 3 quadrados e 1 círculo (26 pontos): $\mathrm{C}_{4,4}\cdot\mathrm{C}_{4,3}\cdot\mathrm{C}_{4,1}=16$\\
+         - 4 estrelas, 2 quadrados e 2 triângulos (26 pontos): $\mathrm{C}_{4,4}\cdot\mathrm{C}_{4,2}\cdot\mathrm{C}_{4,2}=36$ \\
+         - 3 estrelas, 4 quadrados e 1 triângulo: $\mathrm{C}_{4,3}\cdot\mathrm{C}_{4,4}\cdot\mathrm{C}_{4,1}=16$ \\
+         $\Longrightarrow 1+16+16+36+16=85$ coleções possíveis
+         \end{enumerate}
+       \end{sol}
+ \end{ex}

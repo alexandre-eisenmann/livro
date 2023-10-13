@@ -1,0 +1,24 @@
+\begin{ex}
+ (Enem) Em um determinado ano, os computadores da receita federal de um país identificaram como inconsistentes 20\% das declarações de imposto de renda que lhe foram encaminhadas. Uma declaração é classificada como inconsistente quando apresenta algum tipo de erro ou conflito nas informações prestadas. Essas declarações consideradas inconsistentes foram analisadas pelos auditores, que constataram que 25\% delas eram fraudulentas. Constatou-se ainda que, dentre as declarações que não apresentaram inconsistências, 6,25\% eram fraudulentas. Qual é a probabilidade de, nesse ano, a declaração de um contribuinte ser considerada inconsistente, dado que ela era fraudulenta? 
+   \begin{enumerate} [(a)]
+       \item 0,0500
+       \item 0,1000
+       \item 0,1125
+       \item 0,3125
+       \item 0,5000
+   \end{enumerate}
+      \begin{sol}
+      resposta: e \\
+      $20\%$ são inconsistentes e $80\%$ são consistentes. \\
+      $25\%$ de $20\%=5\%$ são inconsistentes fraudulentas.\\
+      $6,25\%$ de $80\%= 5\%$ são consistentes fraudulentas\\
+      Monta-se uma tabela:  \\ \\
+      \begin{tabular}{c|c|c|c} \hline
+           & fraudulenta & não fraudulenta & total \\   \hline
+     inconsistente  &  5\% & 15\% & 20\%  \\  \hline
+     consistente &5\% &75\% &80\% \\  \hline
+     total & 10\%  & 90\% & 100\% \\   \hline
+      \end{tabular}
+      $\Longrightarrow p(\frac{inconsistente}{fraudulenta})=\frac{5\%}{10\%}=0,5000$
+      \end{sol}
+ \end{ex}

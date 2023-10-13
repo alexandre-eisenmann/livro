@@ -1,0 +1,20 @@
+\begin{ex}
+(Unb) Em um trajeto urbano, existem 7 semáforos de cruzamento, cada um deles podendo estar vermelho (R) ; verde (V) ou amarelo (A). Denomina-se percurso a uma sequência de estados desses sinais com que um motorista se depararia ao percorrer o trajeto. Por exemplo: (R, V, A, A, R, V, R) é um percurso. Supondo que todos os percursos tenham a mesma probabilidade de ocorrência, julgue os seguintes itens:
+   \begin{itemize}
+   \item  [(1)] O número de possíveis percursos é 7!
+   \item  [(2)] A probabilidade de ocorrer o percurso (R, V, A, A, R, V, R ) é :   $(\frac{1}{3})^3 + (\frac{1}{3})^2 + (\frac{1}{3})^2$
+   \item  [(3)] A probabilidade de que o primeiro semáforo esteja verde é $\frac{1}{3}$
+   \item  [(4)] A probabilidade de que à exceção do primeiro, todos os demais semáforos estejam vermelhos é inferior a 0,0009
+   \item  [(5)] A probabilidade de que apenas um semáforo esteja vermelho é inferior a 0,2
+   \end{itemize}
+     \begin{sol}
+       \phantom{A} 
+       \begin{itemize}
+           \item [(1)] $3^7 \rightarrow$ F 
+           \item [(2)] $(\frac{1}{3})^7 \rightarrow$ F
+           \item [(3)] V
+           \item [(4)] $\frac{2}{3}\cdot(\frac{1}{3})^6=0,0009144>0,0009 \rightarrow$  F
+           \item [(5)] $\frac{1}{3}\cdot(\frac{2}{3})^6\cdot \mathrm{C}_{6,1}=\frac{448}{2187}=0,2 \rightarrow$ F
+       \end{itemize}
+     \end{sol}
+\end{ex}

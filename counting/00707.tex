@@ -1,0 +1,27 @@
+\begin{ex}
+ Quantos são os anagramas da palavra PROBABILIDADE que ;
+    \begin{enumerate}[(a)]
+    \item apresentam as vogais e as consoantes alternadas?
+    \item não contém o dígrafo PR ?
+    \end{enumerate}
+      \begin{sol}
+          \phantom{A}  
+        \begin{enumerate} [(a)]
+            \item consoantes: PRBBLDD     vogais: OAIIAE \\ 
+             \begin{tikzpicture}
+             \tracos{13}{0.6cm}
+             \tcima{1}{0.6cm}{C}  \tcima{3}{0.6cm}{C}
+             \tcima{5}{0.6cm}{C}  \tcima{7}{0.6cm}{C}
+            \tcima{9}{0.6cm}{C}   \tcima{11}{0.6cm}{C}
+            \tcima{13}{0.6cm}{C} \tcima{2}{0.6cm}{V}
+            \tcima{4}{0.6cm}{V}  \tcima{6}{0.6cm}{V}
+            \tcima{8}{0.6cm}{V}  \tcima{10}{0.6cm}{V}
+            \tcima{12}{0.6cm}{V}
+             \end{tikzpicture}
+             \\
+          $\frac{7!}{2!2!}\cdot\frac{6!}{2!2!}=75600$
+             \item Tudo (-) PR juntos \\ 
+             $\frac{13!}{2!\cdot2!\cdot2!\cdot2!}-\frac{12!}{2!\cdot2!\cdot2!\cdot2!}=9\cdot11!$
+        \end{enumerate}
+      \end{sol}
+\end{ex}

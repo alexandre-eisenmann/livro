@@ -1,0 +1,43 @@
+\begin{ex}
+ Numa gaveta de um armário, há 2 chaves do tipo A e uma chave do  tipo B. Noutra gaveta há um cadeado que é aberto pelas chaves do tipo A e 3 cadeados que são abertos pelas chaves do tipo B. Uma pessoa escolhe, ao acaso uma chave da primeira gaveta e um cadeado da segunda gaveta. Qual a probabilidade de o cadeado ser aberto pela chave escolhida?
+    \begin{sol}
+     Diagrama \\
+        \begin{tikzpicture} [grow=right,sloped]
+      \tikzstyle{level 1} = [sibling distance = 4.0 cm, level distance = 4.0 cm]
+        \tikzstyle{level 2}=[sibling distance = 2.0 cm, level distance= 4.0 cm]
+          \node{}
+            child{
+              node{B}
+                 child{
+                    node{chave B}
+                  edge from parent
+                  node[fill=white]{\(\frac{3}{4}\)}
+                 }
+                 child{
+                    node{chave A}
+                  edge from parent    
+                   node[fill=white]{\(\frac{1}{4}\)}
+                 }
+            edge from parent
+            node[fill=white]{\(\frac{1}{3}\)}
+            }
+          child{
+             node{A}
+                child{
+                  node{chave B}
+                  edge from parent
+                   node[fill=white]{\(\frac{3}{4}\)}
+                }
+                child{
+                  node{chave A }
+                  edge from parent
+                   node[fill=white]{\(\frac{1}{4}\)}
+                }
+            edge from parent
+            node[fill=white]{\(\frac{2}{3}\)}
+            };
+        \end{tikzpicture}
+        \\
+        $\frac{2}{3}\cdot\frac{1}{4}$ ou $\frac{1}{3}\cdot\frac{3}{4}$ = $\frac{2}{12}+\frac{3}{12}=\frac{5}{12}$
+    \end{sol}
+\end{ex}

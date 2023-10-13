@@ -1,0 +1,19 @@
+\begin{ex}
+  Numa urna há 12 bolas numeradas . Uma delas tem o número 1, a outra o número 2, a seguinte o número 3 e assim por diante. As bolas de 1 a 5 são da cor preta e as demais são brancas. Serão retiradas 5 bolas dessa urna, uma de cada vez e sem reposição, e queremos que sobre isso você calcule:
+    \begin{enumerate}[(a)]
+    \item quantos grupos diferentes poderão ser formados sem que todas  as bolas sejam de uma única cor?
+    \item quantos grupos diferentes poderão ser formados com mais números pares do que ímpares?
+    \item qual é  a probabilidade que saiam apenas bolas com números primos?
+    \item qual é a probabilidade que saia um grupo de bolas com números seguidos, como 1, 2, 3, 4 e 5 ou 4, 5, 6, 7 e 8, etc...?
+    \end{enumerate}
+       \begin{sol}
+         \phantom{A}
+           \begin{enumerate} [(a)]
+               \item $\mathrm{C}_{{12},5}=\frac{12!}{5!\cdot7!}=792$
+               \item 3 pares e 2 ímpares ou 4 pares e 1 ímpar ou 5 pares: \\
+               $\mathrm{C}_{6,3}\cdot\mathrm{C}_{6,2}+\mathrm{C}_{6,4}\cdot\mathrm{C}_{6,1}+\mathrm{C}_{6,5}=396$
+               \item só tem 1 grupo de números primos $\Longrightarrow \frac{1}{792}$
+               \item existem 8 grupos com números seguidos $\Longrightarrow \frac{8}{792}$
+           \end{enumerate}
+       \end{sol}
+\end{ex}

@@ -1,0 +1,29 @@
+\begin{ex}
+(Fuvest) Em uma equipe de basquete, a distribuição de idades dos jogadores é a seguinte:
+\begin{center}
+\begin{tabular}{|c|c|} \hline
+Idade  & Nº de jogadores \\   \hline
+22  &  1  \\  \hline
+25  &  3  \\  \hline
+26  &  4  \\  \hline
+29  &  1  \\  \hline
+31  &  2  \\  \hline
+32  &  1  \\  \hline
+\end{tabular}
+\end{center}
+Será sorteada, aleatoriamente, uma comissão de dois jogadores para representar a equipe perante os dirigentes.
+   \begin{enumerate}[(a)]
+   \item quantas possibilidades distintas existem para formar essa comissão?
+   \item qual é a probabilidade de a idade média dos dois jogadores da comissão sorteada ser estritamente menor que a média de idade de todos os jogadores?
+   \end{enumerate}
+     \begin{sol}
+      \phantom{A}
+      \begin{enumerate} [(a)]
+          \item $\mathrm{C}_{{12},2}=66$
+          \item média dos jogadores: $\frac{22+75+104+29+62+32}{12}=27$ \\
+          2 jogadores com média menor que 27: (22 e 25) ou (22 e 26) ou (22 e 29) ou (22 e 31) ou (25 e 25) ou ( 25 e 26) ou ( 26 e 26)\\
+          $1\cdot\mathrm{C}_{3,1}+1\cdot\mathrm{C}_{4,1}+1\cdot1+1\cdot\mathrm{C}_{2,1}+\mathrm{C}_{3,2}+\mathrm{C}_{3,1}\cdot\mathrm{C}_{4,1}+\mathrm{C}_{4,2}=31$\\
+          $\Longrightarrow p=\frac{31}{66}$
+      \end{enumerate}
+     \end{sol}
+\end{ex}

@@ -1,0 +1,26 @@
+\begin{ex}
+ (UFSM) Para efetuar suas compras, o usuário que necessita sacar dinheiro no caixa eletrônico deve realizar duas operações: digitar uma senha composta de 6 algarismos distintos e outra composta por 3 letras, escolhidas num alfabeto de 26 letras. Se essa pessoa esqueceu a senha, mas lembra que 8, 6 e 4 fazem parte dos três primeiros algarismos e que as letras são todas vogais distintas, sendo E a primeira delas. O número máximo de tentativas para acessar a sua conta será:
+    \begin{enumerate}[(a)]
+    \item 210
+    \item 230
+    \item 2520
+    \item 3360
+    \item 15120
+    \end{enumerate}
+      \begin{sol}
+        resposta: e \\
+         \begin{tikzpicture}
+         \tracos{10}{0.6cm}   \tbaixo{4}{0.6cm}{7}
+         \tcima{1}{0.6cm}{8}  \tbaixo{5}{0.6cm}{6}
+         \tcima{2}{0.6cm}{6}  \tbaixo{6}{0.6cm}{5}
+         \tcima{3}{0.6cm}{4}  \tbaixo{7}{0.6cm}{(x)}
+         \juntos{1}{3}{3!}   
+         \tcima{7}{0.6cm}{e}
+         \tcima{8}{0.6cm}{E}
+         \tbaixo{9}{0.6cm}{4}
+         \tbaixo{10}{0.6cm}{3}
+         \end{tikzpicture}
+         \\
+       $3!\cdot7\cdot6\cdot5\cdot4\cdot3=15120$
+      \end{sol}
+\end{ex}

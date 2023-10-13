@@ -1,0 +1,21 @@
+\begin{ex}
+(Unicamp) Três candidatos A,B e C concorrem à presidência de um clube. Uma pesquisa aponta que dos sócios entrevistados, 150 não pretendem votar. Dentre os entrevistados que estão dispostos a participar da eleição, 40 sócios votariam apenas no candidato A, 70 votariam apenas em B e 100 votariam apenas em C. Além disso, 190 disseram que não votariam em A, 110 disseram que não votariam em C, e 10 sócios estão na dúvida e podem votar tanto em A como em C, mas não em B. Finalmente, a pesquisa revelou que 10 entrevistados votariam em qualquer candidato. Com base nesses dados, pergunta-se:
+   \begin{enumerate}[(a)]
+   \item quantos sócios entrevistados estão em dúvida entre votar em B ou em C, mas não votariam em A?
+   \item dentre os sócios consultados que pretendem participar da eleição, quantos não votariam em B?
+   \item quantos sócios participaram da eleição?
+   \item suponha que a pesquisa represente as intenções de voto de todos os sócios do clube. Escolhendo um sócio ao acaso, qual a probabilidade de que ele vá participar da eleição, mas ainda não tenha se decidido por um único candidato?
+   \end{enumerate}
+    \begin{sol}
+     \phantom{A} \\ \\
+       \begin{venndiagram3sets} [ labelOnlyA=40,labelOnlyB=70,labelOnlyC=100,labelNotABC=150,labelABC=10,labelOnlyAB=0,labelOnlyBC=20,labelOnlyAC=10]
+       
+       \end{venndiagram3sets}
+       \begin{enumerate} [(a)]
+           \item 20
+           \item 150
+           \item $40+10+10+70+20+100+150=400$
+           \item $\frac{250}{400}\cdot\frac{40}{250}=10\%$
+       \end{enumerate}
+    \end{sol}
+\end{ex}

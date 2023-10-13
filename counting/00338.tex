@@ -1,0 +1,39 @@
+\begin{ex}
+A tabela abaixo indica a posição relativa de 4 times de futebol na classificação geral de um torneio, em 2 anos consecutivos. O símbolo $ \blackcircle$ significa que o time indicado na linha ficou, no ano de 2004 , à frente do indicado na coluna. O símbolo $ \blacksquare$ significa que o time indicado na linha ficou,  no ano de 2005, à frente  do indicado na coluna.
+\begin{center}
+\renewcommand{\arraystretch}{2} % Default value: 1
+\begin{tabular}{|C{2cm}|C{2cm}|C{2cm}|C{2cm}|C{2cm}|}  \hline
+&     A      &      B      &      C     &       D   \\ \hline     
+A       &            &             &            &  $ \blacksquare $\\ \hline
+B       & $\blackcircle $   $\blacksquare$ &   & $\blackcircle$ &  $\blackcircle$  $\blacksquare$\\ \hline
+C  & $\blackcircle$    $\blacksquare$  & $\blacksquare$  &    &  $\blacksquare$  \\ \hline
+D  & $\blackcircle$  &     &  $\blackcircle$ &      \\  
+\hline
+\end{tabular}
+\end{center}
+A probabilidade de que um desses times, escolhido ao acaso, tenha obtido a mesma classificação no torneio, em 2004 e 2005,  é igual a:
+   \begin{enumerate}[(a)]
+   \item 0,00
+   \item 0,25
+   \item 0,50
+   \item 0,75
+   \item 1,00
+   \end{enumerate}
+     \begin{sol}
+      resposta: a \\
+      2004 $\blackcircle$  A(0)  B(3)  C(1)  D(2) \hspace{0,8cm} 
+      2005 $\blacksquare$  A(1)  B(2)  C(3)  D(0) \\ \\
+      tabela de posição:
+      \begin{tabular}{|c|c|c|} \hline
+      posição &2004 $\blackcircle$&2005 $\blacksquare$  \\ \hline
+        1º  & B & C  \\  \hline
+        2º  & D & B \\ \hline
+        3º  & C & A \\  \hline
+        4º  & A & D \\  \hline
+      \end{tabular}
+      \\
+      nenhum time
+      obteve a mesma classificação, logo a probabilidade é zero.
+     
+     \end{sol}
+\end{ex}

@@ -1,0 +1,24 @@
+\begin{ex}
+ Cem pessoas são ouvidas numa pesquisa e declaram que:
+    \begin{itemize}
+    \item [--] 55\% assistem a filmes na TV
+    \item [--] 35\% assistem a filmes e novelas na TV
+    \item [--] 25\% assistem somente a novelas na TV
+    \end{itemize}
+Qual é a probabilidade de sortear uma dessas pessoas e ela:
+    \begin{enumerate}[(a)]
+    \item não assistir novelas na TV ?
+    \item assistir somente a novelas ou somente a filmes na TV ?
+    \item assistir a novelas, dado que ela não assista filmes na TV ? 
+    \end{enumerate}
+      \begin{sol}
+      Diagrama \\
+        \begin{venndiagram2sets} [labelA=\(F\),labelB=\(N\),labelOnlyA=20,labelOnlyB=25,labelNotAB=20,labelAB=35]
+        \end{venndiagram2sets}
+          \begin{enumerate} [(a)]
+              \item 20\%+20\%=40\%
+              \item 20\%+25\%=45\%
+              \item $\frac{25}{45}=\frac{5}{9}$
+          \end{enumerate}
+      \end{sol}
+\end{ex}

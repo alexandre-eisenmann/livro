@@ -1,0 +1,20 @@
+\begin{ex}
+ Num fim de semestre em uma determinada escola, constatou-se que 55\% dos alunos foram reprovados em Matemática, 65\% em Química, 31\% em Física, 16\% só em Matemática, 19\% em Matemática e Física, 20\% em Química e Física e 15\% em Matemática, Física e Química. Escolhendo um aluno ao acaso, qual a probabilidade:
+    \begin{enumerate}[(a)]
+    \item de não estar reprovado em nenhuma das três?
+    \item de estar reprovado em Física ou em Matemática?
+    \item de estar reprovado em Química, dado que não está reprovado em Matemática?
+    \end{enumerate}
+      \begin{sol}
+        Diagrama \\
+        \begin{venndiagram3sets}[labelA=\(M\),labelB=\(Q\),labelC=\(F\),labelOnlyA=16,labelOnlyB=25,labelOnlyC=7,labelNotABC=8,labelABC=15,labelOnlyAB=20,labelOnlyBC=5,labelOnlyAC=4,radius=1.2cm,tikzoptions={scale=1.5}]
+        \end{venndiagram3sets}
+        \begin{enumerate} [(a)]
+            \item $65+11+16=92 \rightarrow 100-92=8\%$
+            
+            \item 100-(25+8)=67\% \hspace{0.2cm} ou \hspace{0.2cm} 55+31-19=67\%
+            
+            \item $p=\frac{30}{35}=\frac{2}{3}$
+        \end{enumerate}
+      \end{sol}
+\end{ex}

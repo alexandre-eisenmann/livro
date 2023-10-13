@@ -1,0 +1,21 @@
+\begin{ex}
+   (Ita) As faces de dez moedas são numeradas de modo que: a primeira moeda tem faces 1 e 2; a segunda, 2 e 3; a terceira, 3 e 4, e assim sucessivamente até a décima moeda, com faces 10 e 11. As dez moedas são lançadas aleatoriamente e os números exibidos são somados. Então, a probabilidade de que essa soma seja igual a 60 é:
+     \begin{enumerate} [(a)]
+         \item $\frac{63}{128}$
+         \item $\frac{63}{256}$
+         \item $\frac{63}{512}$
+         \item $\frac{189}{512}$
+         \item $\frac{189}{1024}$
+     \end{enumerate}
+       \begin{sol}
+       resposta: b \\
+       menor soma das faces das 10 moedas: $1+2+3+4+5+6+7+8+9+10=55$\\
+       ao "virar" uma das moedas da menor soma obtém-se a soma 56 , logo $\mathrm{C}_{{10},1}= 10$ vezes acontece a soma 56 \\
+       ao "virar" duas das moedas da menor soma obtém-se a soma 57, 
+       logo $\mathrm{C}_{{10},2}= 45$ vezes acontece a soma 57 \\
+       ao "virar" três das moedas da menor soma obtém-se a soma 58,  logo $\mathrm{C}_{{10},3}= 45$ \\
+       ao "virar" cinco das moedas da menor soma obtém-se a soma 60,  logo $\mathrm{C}_{{10},5}= 252$ \\
+       espaço Amostral= número total de resultados possíveis: $\mathrm{C}_{{10},0}+\mathrm{C}_{{10},1}+\mathrm{C}_{{10},2}+\mathrm{C}_{{10},3}+....+\mathrm{C}_{{10},10}= 2^{10}=1024$
+       $\Longrightarrow p=\frac{\mathrm{C}_{{10},5}}{2^{10}}=\frac{252}{1024}=\frac{63}{256}$
+       \end{sol}
+  \end{ex}

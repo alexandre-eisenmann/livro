@@ -1,0 +1,18 @@
+\begin{ex}
+Em uma classe de 16 alunos, todos são fluentes em português. Com relação à fluência em línguas estrangeiras, 2 são fluentes em francês e inglês, 6 são fluentes apenas em inglês e 3 são fluentes apenas em francês.
+   \begin{enumerate}[(a)]
+   \item dessa classe, quantos grupos compostos por 2 alunos podem ser formados sem alunos fluentes em francês?
+   \item sorteando ao acaso 2 alunos dessa classe, qual é a probabilidade de que ao menos um deles seja fluente em inglês? 
+   \end{enumerate}
+     \begin{sol}
+       \phantom{A}\\
+       \begin{venndiagram2sets} [labelA=\(I\),labelB=\(F\),labelNotAB=5,labelOnlyA=6,labelOnlyB=3,labelAB=2] 
+       \end{venndiagram2sets}
+         \begin{enumerate} [(a)]
+             \item $\mathrm{C}_{{11},2}=55$
+             \item o primeiro e o segundo fluentes em inglês \textbf{ou} o primeiro fluente em inglês e o segundo fluente em francês e português \textbf{ou} o primeiro fluente em francês e português e o segundo em inglês 
+             $\Longrightarrow \frac{8}{16}\cdot \frac{7}{15}+\frac{8}{16}\cdot \frac{8}{15}+\frac{8}{16}\cdot \frac{8}{15}=\frac{23}{30}$ \\
+             \textbf{ou}\hspace{0,5cm} (total - fluentes em inglês) $\Longrightarrow 1-\frac{\mathrm{C}_{8,2}}{\mathrm{C}_{{16},2}}=\frac{23}{30}$
+         \end{enumerate}
+     \end{sol}
+\end{ex}

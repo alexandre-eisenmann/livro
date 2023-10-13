@@ -1,0 +1,21 @@
+\begin{ex}
+(Ita) Determine quantos números naturais de 3 algarismos podem ser formados com 1, 2, 3, 4, 5, 6 e 7, satisfazendo à seguinte regra: o número não pode ter algarismos repetidos, exceto quando iniciar com 1 ou 2, caso em que o 7 (e apenas o 7) pode aparecer mais de uma vez. Assinale o resultado obtido.
+   \begin{enumerate}[(a)]
+   \item 204
+   \item 206
+   \item 208
+   \item 210
+   \item 212
+   \end{enumerate}
+    \begin{sol}
+     resposta: e \\
+     - começando com 1 ou 2 e o  7 aparecendo 2 vezes:
+     $\Rightarrow \frac{1}{1}\frac{7}{1}\frac{7}{1}+\frac{2}{1}\frac{7}{1}\frac{7}{1}= 1+1=2$
+     \\
+     - começando com 1 ou 2 e aparecendo o 7 somente uma vez: 
+     $\Rightarrow \frac{1}{1}\frac{\phantom{A}}{6}\frac{\phantom{A}}{5}+\frac{2}{1}\frac{\phantom{A}}{6}\frac{\phantom{A}}{5}=30+30=60$\\
+     - começando com 3 ou 4 ou 5 ou 6 ou 7: 
+     $\Rightarrow \frac{\phantom{A}}{5}\frac{\phantom{A}}{6}\frac{\phantom{A}}{5}=5\cdot6\cdot5=150$ \\
+     $\Longrightarrow 2+60+150=212$
+    \end{sol}
+\end{ex}

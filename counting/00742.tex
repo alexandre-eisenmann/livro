@@ -1,0 +1,53 @@
+\begin{ex}
+ (Enem) O código de barras, contido na maior parte dos produtos industrializados, consiste num conjunto de várias barras que podem ser preenchidas com cor escura ou não. Quando um leitor óptico passa sobre essas barras, a leitura de uma barra é convertida no  número 0 e a da barra escura, no número 1. Observe o seguinte exemplo de um código em um sistema de código de 20 barras
+
+$$
+\tikz \draw [fill=white]  (0,0) rectangle (0.2,1);
+\tikz \draw [fill=lightgray ] (0.2,0) -- (0.4,0) -- (0.4,1) -- (0.2,1);
+\tikz \draw [fill=white] (0.4,0) -- (0.6,0) -- (0.6,1) -- (0.4,1);
+\tikz \draw [fill=lightgray ] (0.6,0) -- (0.8,0) -- (0.8,1) -- (0.6,1);
+\tikz \draw [fill=lightgray ] (0.8,0) -- (1.0,0) -- (1.0,1) -- (0.8,1);
+\tikz \draw [fill=white] (1.0,0) -- (1.2,0) -- (1.2,1) -- (1.0,1);
+\tikz \draw [fill=lightgray ] (1.2,0) -- (1.4,0) -- (1.4,1) -- (1.2,1);
+\tikz \draw [fill=white] (1.4,0) -- (1.6,0) -- (1.6,1) -- (1.4,1);
+\tikz \draw [fill=lightgray ] (1.6,0) -- (1.8,0) -- (1.8,1) -- (1.6,1);
+\tikz \draw [fill=lightgray ] (1.8,0) -- (2.0,0) -- (2.0,1) -- (1.8,1);
+\tikz \draw [fill=lightgray ] (2.0,0) -- (2.2,0) -- (2.2,1) -- (2.0,1);
+\tikz \draw [fill=white] (2.2,0) -- (2.4,0) -- (2.4,1) -- (2.2,1);
+\tikz \draw [fill=lightgray ] (2.4,0) -- (2.6,0) -- (2.6,1) -- (2.4,1);
+\tikz \draw [fill=white] (2.6,0) -- (2.8,0) -- (2.8,1) -- (2.6,1);
+\tikz \draw [fill=lightgray ] (2.8,0) -- (3.0,0) -- (3.0,1) -- (2.8,1);
+\tikz \draw [fill=lightgray ] (3.0,0) -- (3.2,0) -- (3.2,1) -- (3.0,1);
+\tikz \draw [fill=white] (3.2,0) -- (3.4,0) -- (3.4,1) -- (3.2,1);
+\tikz \draw [fill=white] (3.4,0) -- (3.6,0) -- (3.6,1) -- (3.4,1);
+\tikz \draw [fill=white] (3.6,0) -- (3.8,0) -- (3.8,1) -- (3.6,1);
+\tikz \draw [fill=lightgray ] (3.8,0) -- (4.0,0) -- (4.0,1) -- (3.8,1);
+$$
+\\
+Se o leitor óptico for passado da esquerda para a direita irá ler: 01011010111010110001.\\
+Se o leitor óptico for passado da direita para a esquerda irá ler: 10001101011101011010.\\
+No sistema de código de barras, para se organizar o processo da leitura óptica de cada código, deve-se levar em consideração que alguns códigos podem ter leitura da esquerda para a direita igual à leitura da direita para a esquerda, como o código:
+00000000111100000000 no sistema descrito acima.
+Em um sistema de códigos que utilize apenas 5 barras, a quantidade de códigos com leitura da esquerda para a direita igual à direita para a esquerda, desconsiderando-se todas as barras claras ou todas as escuras é:
+    \begin{enumerate}[(a)]
+    \item 14
+    \item 12
+    \item 8
+    \item 6
+    \item 4
+    \end{enumerate}
+      \begin{sol}
+        resposta: d \\
+        - 5 barras: a 1ª e a 5ª devem ser iguais, assim como a 2ª e a 4ª.\\ \\
+           \begin{tikzpicture}
+            \tracos{5}{0.6cm}
+            \tbaixo{1}{0.6cm}{2}
+            \tbaixo{2}{0.6cm}{2}
+            \tbaixo{3}{0.6cm}{2}
+            \tbaixo{4}{0.6cm}{1}   
+            \tbaixo{5}{0.6cm}{1}  
+           \end{tikzpicture}
+           \\
+        - desconsiderar todas as barras claras e todas as escuras $\Longrightarrow2\cdot2\cdot2-2=6$
+      \end{sol}
+\end{ex}

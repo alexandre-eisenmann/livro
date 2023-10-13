@@ -1,0 +1,19 @@
+\begin{ex}
+  (Mack) Diz-se que uma permutação dos inteiros de 1 a 5 é trilegal, se ela contiver 3 inteiros sucessivos em ordem crescente. Por exemplo, a permutação 21354 é trilegal (pois os inteiros sucessivos 2, 3 e 4 estão em ordem crescente), mas a permutação 21435 não é (pois nenhuma das sequências: 1,2,3; 2,3,4 ou 3,4,5 aparece em ordem crescente). Assim, se uma permutação dos inteiros de 1 a 5 é escolhida ao acaso, a probabilidade de que ela não seja trilegal é:
+    \begin{enumerate}  [(a)]
+        \item $\frac{5}{12}$
+        \item $\frac{7}{12}$
+        \item $\frac{9}{12}$
+        \item $\frac{10}{12}$
+        \item $\frac{11}{12}$
+    \end{enumerate}
+      \begin{sol}
+       resposta: b \\
+       espaço amostral: $5!=120$ \\
+       Permutações trilegais: \\
+       - com 3 números seguidos: (1,2,3) (2,3,4) (3,4,5)  $\Rightarrow 3\cdot\mathrm{C}_{5,3}\cdot2=60$ \\
+       - com 4 algarismos seguidos: (1,2,3,4) (2,3,4,5)    $\Rightarrow 2\cdot\mathrm{C}_{5,4}=10$ (já contadas nas sequências de 3 números seguidos). Logo o total de permutações trilegais é: $60-10=50$ \\
+       A probabilidade da permutação não ser trilegal é:\hspace{0,3cm}
+       $\Longrightarrow p=\frac{120-50}{120}=\frac{7}{12}$
+      \end{sol}
+ \end{ex}

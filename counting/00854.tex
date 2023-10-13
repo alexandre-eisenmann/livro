@@ -1,0 +1,20 @@
+\begin{ex}
+ Há 15 pessoas; 6 mulheres e 9 homens na sala principal do fórum esperando para serem ou não escolhidos como jurados no julgamento que vai começar. Entre as mulheres, uma é arquiteta, e entre os homens, 2 são engenheiros civis. O júri será composto por 7 pessoas. Quantos júris poderão ser formados:
+    \begin{enumerate}[(a)]
+    \item por 4 homens e 3 mulheres?
+    \item com as mulheres sendo maioria?
+    \item com os 2 engenheiros participando sempre?
+    \item sem que a arquiteta e os 2 engenheiros participem simultaneamente?
+    \end{enumerate}
+     \begin{sol}
+      \phantom{A}  
+        \begin{enumerate} [(a)]
+         \item $\mathrm{C}_{9,4}\cdot\mathrm{C}_{6,3}=2520$
+         \item 4 mulheres e 3 homens ou 5 mulheres  e 2 homens ou 6 mulheres e 1 homem \\
+         $\mathrm{C}_{6,4}\cdot\mathrm{C}_{9,3}+\mathrm{C}_{6,5}\cdot\mathrm{C}_{9,2}+\mathrm{C}_{6,6}\cdot\mathrm{C}_{9,1}=1485$
+        \item 2 engenheiros já estão participando \\ $\mathrm{C}_{{13},5}=1287$
+        \item com arquiteta, sem os engenheiros $(\mathrm{C}_{{12},6})$ ou sem arquiteta, com os engenheiros $(\mathrm{C}_{{12},5})$ 
+        $\Longrightarrow \mathrm{C}_{{12},6}+\mathrm{C}_{{12},5}=1716$
+        \end{enumerate}
+       \end{sol}
+  \end{ex}

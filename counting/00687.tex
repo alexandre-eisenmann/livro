@@ -1,0 +1,32 @@
+\begin{ex}
+ Considere 12 pontos, 5 deles localizados em um arco $\arc{ABC}$ e sete deles no segmento $\overline{AC}$.
+ Escolhendo-se aleatoriamente três desses pontos, qual é a probabilidade deles:
+   \begin{enumerate} [(a)]
+       \item serem colineares?
+       \item formarem um triângulo?
+   \end{enumerate}
+    \begin{sol}
+        \phantom{A} 
+       \begin{enumerate} [(a)]
+           \item $\frac{\mathrm{C}_{7,3}}{\mathrm{C}_{{12},3}}=\frac{7}{44}$
+           \item $\frac{5\cdot\mathrm{C}_{7,2}+\mathrm{C}_{5,3}+7\cdot\mathrm{C}_{5,2}}{\mathrm{C}_{{12},3}}=\frac{37}{44}$
+       \end{enumerate}
+    \end{sol}
+
+$$
+\begin{tikzpicture}[]
+
+% A clipped circle is drawn
+\begin{scope}
+\clip (-1.5,0) rectangle (1.5,1.5);
+\draw (0,0) circle(1.5);
+\draw [thick] (-1.5,0) -- (1.5,0);
+\end{scope}
+%
+%%Labels for the vertices are typeset.
+\node[below left= 1mm of {(-1.5,0.5)}] {$A$};
+\node[below right= 1mm of {(1.5,0.5)}] {$C$};
+\node[above right= 1mm of {(105:1.5)}] {$B$};
+\end{tikzpicture}
+$$
+\end{ex}

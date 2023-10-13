@@ -1,0 +1,33 @@
+\begin{ex}
+ Utilizando simultaneamente os 9 algarismos do número 345492427, quantos números é possível escrever de modo que:
+    \begin{enumerate}[(a)]
+    \item os algarismos ímpares fiquem todos juntos?
+    \item não fique dois algarismos ímpares juntos, nem dois pares ?
+    \end{enumerate}
+       \begin{sol}
+           \phantom{A} 
+         \begin{enumerate} [(a)]
+             \item $4!\cdot\frac{5!}{3!\cdot2!}\cdot6=1440$
+       
+       
+           \begin{tikzpicture}
+            \tracos{9}{0.6cm}
+            \juntos{1}{4}{ímpares}
+           \end{tikzpicture}
+       
+             \item  $4!\cdot\frac{5!}{3!\cdot2!}=240$
+                  
+             \begin{tikzpicture}
+             \tracos{9}{0.6cm} 
+             \tcima{1}{0.6cm}{P}  \tcima{3}{0.6cm}{P}
+             \tcima{5}{0.6cm}{P}  \tcima{7}{0.6cm}{P}
+             \tcima{9}{0.6cm}{P}  \tbaixo{2}{0.6cm}{4}
+             \tbaixo{4}{0.6cm}{3} \tbaixo{6}{0.6cm}{2}
+             \tbaixo{8}{0.6cm}{1} \tcima{2}{0.6cm}{I}
+             \tcima{4}{0.6cm}{I}  \tcima{6}{0.6cm}{I}
+             \tcima{8}{0.6cm}{I}
+             \end{tikzpicture}
+       
+         \end{enumerate}
+       \end{sol}
+\end{ex}

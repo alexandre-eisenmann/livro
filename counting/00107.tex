@@ -1,0 +1,26 @@
+\begin{ex}
+    (UFRGS) Existem \textit{n} maneiras distintas de marcar 6 quadrados na figura, marcando exatamente dois em cada coluna e um em cada linha. O valor de \textit{n} é:
+\begin{center}
+\begin{tikzpicture}
+ \draw (0,0)--(0,6)--(3,6)--(3,0)--(0,0);
+ \draw (1,0)--(1,6); 
+ \draw (2,0)--(2,6);
+ \draw (0,1)--(3,1);
+ \draw (0,2)--(3,2);
+ \draw (0,3)--(3,3);
+ \draw (0,4)--(3,4);
+ \draw (0,5)--(3,5);
+\end{tikzpicture}
+\end{center}
+   \begin{enumerate}[(a)]
+   \item 36
+   \item 45
+   \item 60
+   \item 90
+   \item 120
+   \end{enumerate}
+     \begin{sol}
+       resposta: d \\
+       $\mathrm{C}_{6,2}\cdot\mathrm{C}_{4,2}\cdot\mathrm{C}_{2,2}=90$
+     \end{sol}
+\end{ex}

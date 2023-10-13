@@ -1,0 +1,33 @@
+\begin{ex}
+ Quantos números múltiplos de 5, de quatro algarismos distintos, podem ser formados se:
+    \begin{enumerate}[(a)]
+    \item usarmos os algarismos de 1 a 6?
+    \item usarmos os algarismos de 0 a 5?
+    \end{enumerate}
+     \begin{sol} 
+          \phantom{A} 
+       \begin{enumerate} [(a)]
+           \item $5\cdot4\cdot3\cdot1=60$
+       
+         \begin{tikzpicture}
+             \tracos{4}{0.6cm}   \tbaixo{1}{0.6cm}{5}
+             \tbaixo{2}{0.6cm}{4}
+             \tbaixo{3}{0.6cm}{3}
+             \tbaixo{4}{0.6cm}{1}
+             \tcima{4}{0.6cm}{5}
+           \end{tikzpicture}
+       
+          \item $(5\cdot4\cdot3\cdot1)+(4\cdot4\cdot3\cdot1)=108$
+    
+         \begin{tikzpicture}
+             \tracos{9}{0.6cm}   \tbaixo{1}{0.6cm}{5}
+             \tbaixo{2}{0.6cm}{4} \tbaixo{3}{0.6cm}{3}
+             \tbaixo{4}{0.6cm}{1}  \tcima{4}{0.6cm}{0}
+             \tcima{5}{0.5cm}{ou} \tbaixo{6}{0.6cm}{4}
+             \tbaixo{7}{0.6cm}{4}  \tbaixo{8}{0.6cm}{3}
+             \tbaixo{9}{0.6cm}{1}  \tcima{9}{0.6cm}{5}
+           \end{tikzpicture}
+         
+       \end{enumerate}
+     \end{sol}
+\end{ex}

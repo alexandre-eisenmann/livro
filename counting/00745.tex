@@ -1,0 +1,30 @@
+\begin{ex}
+ Escrevendo aleatoriamente um anagrama da palavra ANAGRAMA, qual a probabilidade de:
+    \begin{enumerate}[(a)]
+    \item de sair exatamente ANAGRAMA?
+    \item dele começar e terminar por consoante?
+    \item todos os "A" ficarem juntos?
+    \end{enumerate}
+     \begin{sol}
+      \phantom{A}
+       \begin{enumerate} [(a)]
+           \item $\frac{8!}{4!}= 1680\Longrightarrow p=\frac{1}{1680}$
+           \item $\frac{\frac{4.3.6!}{4!}}{\frac{8!}{4!}}=\frac{3}{14}$  \\
+              \\
+             \begin{tikzpicture}
+              \tracos{8}{0.6cm}
+              \juntos{2}{7}{6!}
+              \tcima{1}{0.6cm}{4}
+              \tcima{8}{0.6cm}{3}  
+              \end{tikzpicture}
+           \item $\frac{5!.5}{\frac{8!}{4!}}=\frac{5}{14}$\\
+             \begin{tikzpicture}
+               \tracos{8}{0.6cm}
+               \juntos{1}{8}{5!.5}
+               \tcima{1}{0.6cm}{A}  \tcima{2}{0.6cm}{A}
+               \tcima{3}{0.6cm}{A}  \tcima{4}{0.6cm}{A}
+             \end{tikzpicture}
+            
+       \end{enumerate}
+     \end{sol}
+\end{ex}

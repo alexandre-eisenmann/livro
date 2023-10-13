@@ -1,0 +1,20 @@
+\begin{ex}
+Uma moeda é lançada 5 vezes. Determine a probabilidade de que:
+   \begin{enumerate}[(a)]
+   \item os 3 primeiros lançamentos deem cara?
+   \item exatamente 3 lançamentos deem cara?
+   \item pelo menos 3 lançamentos deem cara?
+   \item se obtenha cara no segundo lançamento, sabendo que houve duas caras e 3 coroas?
+   \end{enumerate}
+     \begin{sol}
+       \phantom{A} 
+        \begin{enumerate} [(a)]
+            \item $(\frac{1}{2})^3\cdot(\frac{2}{2})^2=\frac{1}{8}$
+            \item $(\frac{1}{2})^5\cdot\mathrm{C}_{5,3}=\frac{5}{16}$
+            \item 3 caras e 2 coroas ou 4 caras e 1 coroa ou 5 caras:\\
+            $(\frac{1}{2})^5\cdot\mathrm{C}_{5,3}+(\frac{1}{2})^5\cdot\mathrm{C}_{5,4}+(\frac{1}{2})^5=\frac{1}{2}$
+            \item colocando uma cara no 2º lançamento, a outra cara pode estar em 4 posições: $\frac{4}{\mathrm{C}_{5,2}}=\frac{2}{5}$
+        \end{enumerate}
+     \end{sol}
+   
+\end{ex}
