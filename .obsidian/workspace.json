@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5c1cd5623d6bf017",
+        "id": "567ea958ea5a9a67",
         "type": "tabs",
         "children": [
           {
-            "id": "efcd7f403be3b4a1",
+            "id": "7ce8a5771ec2996b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "articles/prime_numbers_gap/desertodeprimos.pdf"
+                "file": "articles/birth_paradox/birth_paradox_pt.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/prime_numbers_gap/desertodeprimos.pdf",
+                "file": "articles/birth_paradox/birth_paradox_pt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/prime_numbers_gap/desertodeprimos.pdf",
+                "file": "articles/birth_paradox/birth_paradox_pt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/prime_numbers_gap/desertodeprimos.pdf"
+                "file": "articles/birth_paradox/birth_paradox_pt.md"
               }
             }
           }
@@ -144,28 +146,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aade5eade07dd1cb",
+  "active": "7ce8a5771ec2996b",
   "lastOpenFiles": [
-    "articles/hair_strands/fiosdecabelo.pdf",
+    "articles/mathematicians_lament/mathematicians_lament_pt.md",
+    "articles/birth_paradox/birth_paradox_pt.md",
+    "articles/birth_paradox",
+    "articles/nerd_revolution/nerd_revolution_pt.md",
+    "articles/mathematicians_lament",
+    "articles/nerd_revolution/nerd.jpg",
+    "articles/dual_numbers/dual_numbers_pt.tex",
+    "articles/dual_numbers/dual_numbers_pt.pdf",
+    "articles/dual_numbers",
+    "articles/dua_numbers/dual_numbers_pt.tex",
+    "articles/nerd_revolution/nerd.jpg.crdownload",
+    "articles/sp_to_nz/sp_to_nz_pt.md",
+    "articles/nerd_revolution",
+    "articles/non_envy_protocol/non_envy_protocol_pt.md",
+    "articles/sp_to_nz",
+    "articles/non_envy_protocol",
+    "articles/Untitled.md",
+    "articles/investiment/investiment_pt.md",
+    "articles/show/show_pt.md",
     "articles/polar_bear/polar_bear_pt.md",
     "articles/prime_numbers_gap/prime_numbers_gap_pt.md",
-    "articles/prime_numbers_gap/desertodeprimos.pdf",
-    "articles/dua_numbers/dual_numbers_pt.pdf",
-    "articles/prime_numbers_gap",
-    "articles/Untitled.md",
     "articles/colourful_route/colourful_route_pt.md",
     "articles/colourful_route/rotacolorida.png",
-    "articles/colourful_route/rotacolorida.png.crdownload",
     "articles/2000_prize/2000_prize_pt.md",
-    "articles/colourful_route",
     "articles/2000_prize/B.png",
     "articles/2000_prize/resolva.png",
     "articles/2000_prize/C.png",
     "articles/2000_prize/A.png",
-    "articles/2000_prize/resolva.png.crdownload",
-    "articles/2000_prize/C.png.crdownload",
-    "articles/2000_prize/B.png.crdownload",
-    "articles/2000_prize/A.png.crdownload",
     "articles/2000_prize/right.png",
     "articles/2000_prize/left.png",
     "articles/gravity/gravity_pt.md",
@@ -175,7 +185,6 @@
     "articles/the_screcet/the_scret_pt.md",
     "articles/eisenmann_numbers/eisenmann_numbers_pt.md",
     "articles/eisenmann_numbers/table.png",
-    "articles/eisenmann_numbers/logo.png",
     "articles/playllist/playlist_pt.md",
     "articles/playllist/playlist_en.md",
     "articles/master_tile_artisan/master_tile_artisan_pt.md",
@@ -185,12 +194,6 @@
     "articles/simplicio/simplicio.md",
     "articles/hair_strands/hair_strands_pt.md",
     "articles/number_9376/number_9376_pt.md",
-    "articles/game_of_life/game_of_life_pt.md",
-    "articles/fiat_lux/fiat_lux_pt.md",
-    "articles/long_tail/long_tail_pt.md",
-    "articles/number_9376/Número 9376.md",
-    "articles/playllist/The Mathematics of the Playlist.md",
-    "articles/number_9376/Untitled.md",
     "Fabiana minha esposa linda.canvas"
   ]
 }
