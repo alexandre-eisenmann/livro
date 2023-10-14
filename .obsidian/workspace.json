@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/birth_paradox/birth_paradox_pt.md",
+                "file": "articles/dual_numbers/dual_numbers_pt.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/birth_paradox/birth_paradox_pt.md",
+                "file": "articles/dual_numbers/dual_numbers_pt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/birth_paradox/birth_paradox_pt.md",
+                "file": "articles/dual_numbers/dual_numbers_pt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/birth_paradox/birth_paradox_pt.md"
+                "file": "articles/dual_numbers/dual_numbers_pt.md"
               }
             }
           }
@@ -148,14 +148,22 @@
   },
   "active": "7ce8a5771ec2996b",
   "lastOpenFiles": [
+    "articles/dual_numbers/dual_numbers_pt.pdf",
+    "articles/dual_numbers/dual_numbers_pt.md",
+    "articles/eisenmann_numbers/eisenmann_numbers_pt.md",
+    "articles/eisenmann_numbers/logo.png",
     "articles/mathematicians_lament/mathematicians_lament_pt.md",
+    "articles/nerd_revolution/nerd.jpg",
+    "articles/nerd_revolution/nerd_revolution_pt.md",
+    "articles/mathematical_beauty/mathematical_beauty_pt.md",
+    "articles/master_tile_artisan/master_tile_artisan_pt.md",
+    "articles/2000_prize/2000_prize_pt.md",
+    "articles/investiment/investiment_pt.md",
+    "articles/the_purpose/the_purpose_pt.md",
     "articles/birth_paradox/birth_paradox_pt.md",
     "articles/birth_paradox",
-    "articles/nerd_revolution/nerd_revolution_pt.md",
     "articles/mathematicians_lament",
-    "articles/nerd_revolution/nerd.jpg",
     "articles/dual_numbers/dual_numbers_pt.tex",
-    "articles/dual_numbers/dual_numbers_pt.pdf",
     "articles/dual_numbers",
     "articles/dua_numbers/dual_numbers_pt.tex",
     "articles/nerd_revolution/nerd.jpg.crdownload",
@@ -165,13 +173,11 @@
     "articles/sp_to_nz",
     "articles/non_envy_protocol",
     "articles/Untitled.md",
-    "articles/investiment/investiment_pt.md",
     "articles/show/show_pt.md",
     "articles/polar_bear/polar_bear_pt.md",
     "articles/prime_numbers_gap/prime_numbers_gap_pt.md",
     "articles/colourful_route/colourful_route_pt.md",
     "articles/colourful_route/rotacolorida.png",
-    "articles/2000_prize/2000_prize_pt.md",
     "articles/2000_prize/B.png",
     "articles/2000_prize/resolva.png",
     "articles/2000_prize/C.png",
@@ -181,19 +187,12 @@
     "articles/gravity/gravity_pt.md",
     "articles/yam/yam_pt.md",
     "articles/yam/yam.jpg",
-    "articles/the_purpose/the_purpose_pt.md",
     "articles/the_screcet/the_scret_pt.md",
-    "articles/eisenmann_numbers/eisenmann_numbers_pt.md",
-    "articles/eisenmann_numbers/table.png",
     "articles/playllist/playlist_pt.md",
     "articles/playllist/playlist_en.md",
-    "articles/master_tile_artisan/master_tile_artisan_pt.md",
     "articles/simplicio/simplicio_pt.md",
     "articles/purpose/Untitled.md",
-    "articles/mathematical_beauty/mathematical_beauty_pt.md",
     "articles/simplicio/simplicio.md",
-    "articles/hair_strands/hair_strands_pt.md",
-    "articles/number_9376/number_9376_pt.md",
     "Fabiana minha esposa linda.canvas"
   ]
 }
