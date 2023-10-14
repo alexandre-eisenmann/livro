@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fiat Lux! E Deus criou a matemática"
+title: Fiat Lux! E Deus criou a matemática
 date: 2007-05-17 10:00:00 +1000
 categories: mathematics blog
 mathjax: true

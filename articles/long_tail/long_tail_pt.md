@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Long Tail"
+title: The Long Tail
 date: 2007-05-18 10:00:00 +1000
 categories: mathematics blog
 mathjax: true

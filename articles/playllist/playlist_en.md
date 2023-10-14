@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Matematics of the Playlist"
+title:  The Matematics of the Playlist
 date:   2016-02-26 10:00:00 +1000
 categories: mathematics blog
 image: brothers.png

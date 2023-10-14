@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cfd0c5923f4cef8a",
+        "id": "5c1cd5623d6bf017",
         "type": "tabs",
         "children": [
           {
-            "id": "94a04e3ad35b169e",
+            "id": "efcd7f403be3b4a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/long_tail/long_tail_pt.md",
+                "file": "articles/colourful_route/colourful_route_pt.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 398.500732421875
   },
   "right": {
     "id": "75666c0031462343",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/long_tail/long_tail_pt.md",
+                "file": "articles/colourful_route/colourful_route_pt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/long_tail/long_tail_pt.md",
+                "file": "articles/colourful_route/colourful_route_pt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/long_tail/long_tail_pt.md"
+                "file": "articles/colourful_route/colourful_route_pt.md"
               }
             }
           }
@@ -146,29 +146,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aade5eade07dd1cb",
+  "active": "efcd7f403be3b4a1",
   "lastOpenFiles": [
-    "articles/number_9376/number_9376_pt.md",
-    "articles/long_tail/long_tail_pt.md",
-    "articles/long_tail",
-    "articles/fiat_lux/fiat_lux_pt.md",
-    "articles/dua_numbers/dual_numbers_pt.pdf",
-    "articles/number_9376/Número 9376.md",
-    "articles/fiat_lux",
-    "articles/dua_numbers",
-    "articles/playllist/The Mathematics of the Playlist.md",
-    "articles/playllist/brothers.png",
-    "articles/number_9376/number_9376_pt.html",
-    "articles/number_9376/Untitled.md",
-    "articles/number_9376",
-    "articles/playllist",
-    "assets/images/brothers.png.md",
-    "articles/assets/images",
-    "articles/assets",
-    "articles/dual_numbers_pt.tex",
+    "articles/colourful_route/rotacolorida.png",
+    "articles/colourful_route/rotacolorida.png.crdownload",
+    "articles/2000_prize/2000_prize_pt.md",
+    "articles/colourful_route/colourful_route_pt.md",
+    "articles/colourful_route",
+    "articles/2000_prize/B.png",
+    "articles/2000_prize/resolva.png",
+    "articles/2000_prize/C.png",
+    "articles/2000_prize/A.png",
+    "articles/2000_prize/resolva.png.crdownload",
+    "articles/2000_prize/C.png.crdownload",
+    "articles/2000_prize/B.png.crdownload",
+    "articles/2000_prize/A.png.crdownload",
+    "articles/2000_prize/right.png",
+    "articles/2000_prize/left.png",
+    "articles/2000_prize/right.png.crdownload",
+    "articles/2000_prize/left.png.crdownload",
+    "articles/2000_prize",
     "articles/Untitled.md",
-    "test.md",
-    "Fabiana minha esposa linda.canvas",
-    "Ola.md"
+    "articles/gravity/gravity_pt.md",
+    "articles/yam/yam_pt.md",
+    "articles/gravity",
+    "articles/yam/yam.jpg",
+    "articles/the_purpose/the_purpose_pt.md",
+    "articles/the_screcet/the_scret_pt.md",
+    "articles/eisenmann_numbers/eisenmann_numbers_pt.md",
+    "articles/eisenmann_numbers/table.png",
+    "articles/eisenmann_numbers/logo.png",
+    "articles/playllist/playlist_pt.md",
+    "articles/playllist/playlist_en.md",
+    "articles/master_tile_artisan/master_tile_artisan_pt.md",
+    "articles/polar_bear/polar_bear_pt.md",
+    "articles/simplicio/simplicio_pt.md",
+    "articles/purpose/Untitled.md",
+    "articles/mathematical_beauty/mathematical_beauty_pt.md",
+    "articles/simplicio/simplicio.md",
+    "articles/hair_strands/hair_strands_pt.md",
+    "articles/number_9376/number_9376_pt.md",
+    "articles/game_of_life/game_of_life_pt.md",
+    "articles/game_of_life/jogovida-2.png",
+    "articles/fiat_lux/fiat_lux_pt.md",
+    "articles/long_tail/long_tail_pt.md",
+    "articles/number_9376/Número 9376.md",
+    "articles/playllist/The Mathematics of the Playlist.md",
+    "articles/number_9376/Untitled.md",
+    "assets/images/brothers.png.md",
+    "Fabiana minha esposa linda.canvas"
   ]
 }

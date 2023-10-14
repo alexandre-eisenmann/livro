@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Número 9376"
+title: Número 9376
 date: 2007-05-05 10:00:00 +1000
 categories: mathematics blog
 mathjax: true
